@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Desafio 7</title>
+    </head>
+    <body>
+        <h1>Desafio 7</h1>
+
+        <pre>
+            Utilize a sintaxe curta de objetos (Object Short Syntax) no seguinte objeto:
+
+            const nome = 'Diego';
+            const idade = 23;
+            const usuario = {
+                nome: nome,
+                idade: idade,
+                cidade: 'Rio do Sul',
+            };    
+        </pre>
+
+        <script>
+            const nome = 'Diego';
+            const idade = 23;
+            const usuario = {
+                nome,
+                idade,
+                cidade: 'Rio do Sul',
+            }; 
+            
+            console.log(usuario);
+        </script>
+    </body>
+</html>
